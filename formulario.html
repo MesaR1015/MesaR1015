@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/validacion.js" defer></script>
+    <title>Página de Formulario</title>
+    <style>
+        header{ text-align: center}
+        .top-menu{ text-align: center; background-color: #333; overflow: hidden;}
+    </style>
+</head>
+<body>
+
+<div class="top-menu">
+    <a href="index.html">Inicio</a>
+    <a href="Tablas.html">Tablas</a>
+    <a href="Video.html">Video</a>
+    <a href="Formulario.html">Formulario</a>
+</div>
+
+<header>
+    <img src="img/Logo.png" width="150" height="70" alt="Logo Personal">     
+</header>
+
+<div class="content-formulario">
+    <h1>Formulario</h1>
+    <form onsubmit="return validarFormulario()" method="post" action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<div class="footer">
+    <p>Autor: Juan Rojas</p>
+</div>
+
+</body>
+</html>
+
