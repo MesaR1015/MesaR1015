@@ -1,5 +1,11 @@
-## Hi there 👋
+## juan Rojas
 
+Página web creada con JS, HTML, CSS
+
+Tecnologías:
+ - HTML
+ - CSS
+ - JavaScript
 <!--
 **MesaR1015/MesaR1015** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
