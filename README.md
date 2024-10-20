@@ -1,4 +1,4 @@
-## juan Rojas
+## Juan Rojas
 
 Página web creada con JS, HTML, CSS
 
